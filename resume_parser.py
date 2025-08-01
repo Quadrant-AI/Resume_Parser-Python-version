@@ -444,7 +444,7 @@ if __name__ == "__main__":
         
         safe_name = re.sub(r'[^A-Za-z0-9]+', '_', string.capwords(parsed_data['name']))
 
-        output_path = f"C:\\Users\\91944\\Downloads\\Quadrant\\resume_format_trials\\{safe_name}_resume.docx"
+        output_path = f"YOUR_FILE_PATH\\{safe_name}_resume.docx"
         create_formatted_docx(parsed_data, output_path, logo_path="logo.png")
 
     else:
