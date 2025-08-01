@@ -42,8 +42,9 @@ resume_parser/
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/yourusername/resume-parser-llm.git
-cd resume-parser-llm
+git clone https://github.com/yourusername/resume-parser-llm.git](https://github.com/Quadrant-AI/Resume_Parser-Python-version.git
+
+cd Resume_Parser-Python-version
 ```
 
 ### 2. Install Dependencies
@@ -107,13 +108,13 @@ The script will:
 
 ---
 
-## 📃 License
+## License
 
 MIT License – Use freely for personal and commercial use.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Developed by [Your Name]  
-📬 For support or suggestions: your.email@example.com
+For support or suggestions: your.email@example.com
