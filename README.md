@@ -1,30 +1,28 @@
 # Resume_Parser-Python-version
 
 
-# 🧠 Resume Parser & Formatter with Gemini LLM
+#  Resume Parser & Formatter with Gemini LLM
 
 This Python-based application extracts, parses, and reformats resumes (PDF or DOCX) into a standardized, company-branded Word format using Google Gemini LLM and `python-docx`.
 
-> 💼 Built for staffing agencies, HR teams, and automated candidate profiling systems.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Extracts text from PDF and DOCX files
-- 🤖 Uses Gemini API to parse structured resume data (name, contact, skills, experience, etc.)
-- 📄 Generates clean, company-standardized Word documents with:
+- Extracts text from PDF and DOCX files
+- Uses Gemini API to parse structured resume data (name, contact, skills, experience, etc.)
+-  Generates clean, company-standardized Word documents with:
   - Logo header
   - Footer contact details
   - Candidate strengths summary
   - Skill matrix (up to 10 rows)
   - Proper section formatting (bold, underline, line spacing, etc.)
-- 🧠 Supports both raw skill list and detailed skill matrix
-- 🔒 Clean naming of output resumes using candidate name
+-  Supports both raw skill list and detailed skill matrix
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 resume_parser/
@@ -39,7 +37,7 @@ resume_parser/
 
 ---
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone this repository
 
@@ -68,7 +66,7 @@ Place `.pdf` or `.docx` resume files into any folder. Then update `resume_path` 
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 python resume_parser.py
@@ -79,28 +77,11 @@ The script will:
 - Use LLM to parse details into structured JSON
 - Generate a formatted Word document in the `resume_format_trials/` folder
 
-✅ Output file name: `First_Last_resume.docx` (cleaned safely from the name field)
+ Output file name: `First_Last_resume.docx` (cleaned safely from the name field)
 
 ---
 
-## 🧪 Supported Output Fields
-
-| Field         | Description |
-|---------------|-------------|
-| Name          | Full name of candidate (auto capitalized) |
-| Contact       | Phone, Email, LinkedIn |
-| Summary       | Candidate strengths summary |
-| Skills        | List of technical skills |
-| Skill Matrix  | Area, Years, Clients, Level |
-| Education     | Degree, Major, University |
-| Experience    | Role, Company, Dates, Bullet Points |
-| Projects      | Project name, dates, description, tech stack |
-| Certifications| Name and issuer |
-| Awards        | Optional |
-
----
-
-## 🛠 Technologies Used
+## Technologies Used
 
 - `python-docx` for document creation
 - `PyMuPDF` for PDF text extraction
@@ -109,7 +90,7 @@ The script will:
 
 ---
 
-## ❗️Limitations
+## Limitations
 
 - LLM parsing depends on resume clarity and formatting
 - Does not yet extract embedded images, shapes, or graphs
@@ -117,7 +98,7 @@ The script will:
 
 ---
 
-## 📌 TODO (Pull Requests Welcome)
+## TODO (Pull Requests Welcome)
 
 - [ ] Add Gradio or Streamlit UI
 - [ ] Upload multiple resumes in bulk
